@@ -11,11 +11,12 @@ import team_1 from "./team_1.jpg";
 import team_2 from "./team_2.jpg";
 import team_3 from "./team_3.jpg";
 import team_4 from "./team_4.jpg";
-import More from './More.jpg'
-import News_1 from './News_1.jpg'
-import News_2 from './News_2.jpg'
-import News_3 from './News_3.jpg'
-import News_4 from './News_4.jpg'
+import More from "./More.jpg";
+import News_1 from "./News_1.jpg";
+import News_2 from "./News_2.jpg";
+import News_3 from "./News_3.jpg";
+import News_4 from "./News_4.jpg";
+import About_img from "./About-img.jpg";
 
 export const assets = {
   bg_programs,
@@ -35,7 +36,8 @@ export const assets = {
   News_2,
   News_3,
   News_4,
-  More
+  More,
+  About_img,
 };
 export const workingDay = [
   { id: 1, img: assets.gym_1, day: "MONDAY 10:00AM", title: "OPEN TRAINING" },
@@ -43,17 +45,62 @@ export const workingDay = [
   { id: 3, img: assets.gym_3, day: "WEDNESDAY 1:00PM", title: "STRETCH" },
   { id: 4, img: assets.gym_4, day: "THURSDAY 10:00AM", title: "CARDIO" },
   { id: 5, img: assets.gym_5, day: "FRIDAY 11:00AM", title: "YOGA" },
-
 ];
-export const teamMem =[
-  {id:1, img: assets.team_1, name:"Joshua Bronn", role:"CrossFit Coach", description:"Trains individuals in functional fitness and varied workouts."},
-  {id:2, img: assets.team_2, name:"Dwin Johnson", role:"Fitness Coach", description:"Helps with physique development, bulking, and cutting."},
-  {id:3, img: assets.team_3, name:"Aliana Queen",role:"Kickboxing Trainer", description:"	Combines martial arts with cardio workouts diet plans."},
-
-]
-export const latestNews=[
-  {id:1, img:assets.News_3, heading:"What Discipline Is?", description:"Most of us can agree that discipline is one of the most important virtues …", time:"Tue 12 Jul 2016 6:07 AM"},
-  {id:2, img:assets.News_2, heading:"Quality Before Intensity", description:"Thanks to social media accounts, we live in a time where the fitness…", time:"Tue 12 Jul 2016 6:03 AM"},
-  {id:3, img:assets.News_1, heading:"Toes-to-Bar Mount", description:"At Kettlebell we have seen so many great athletes struggle on…", time:"Sat 25 Jun 2016 5:59 AM"},
-  {id:4, img:assets.News_4, heading:"Handstand Walk", description:"Handstand walking can be a fun and impressive skill to master…", time:"Sun 12 Jun 2016 11:40 AM"},
-]
+export const teamMem = [
+  {
+    id: 1,
+    img: assets.team_1,
+    name: "Joshua Bronn",
+    role: "CrossFit Coach",
+    description:
+      "Trains individuals in functional fitness and varied workouts.",
+  },
+  {
+    id: 2,
+    img: assets.team_2,
+    name: "Dwin Johnson",
+    role: "Fitness Coach",
+    description: "Helps with physique development, bulking, and cutting.",
+  },
+  {
+    id: 3,
+    img: assets.team_3,
+    name: "Aliana Queen",
+    role: "Kickboxing Trainer",
+    description: "	Combines martial arts with cardio workouts diet plans.",
+  },
+];
+export const latestNews = [
+  {
+    id: 1,
+    img: assets.News_3,
+    heading: "What Discipline Is?",
+    description:
+      "Most of us can agree that discipline is one of the most important virtues …",
+    time: "Tue 12 Jul 2016 6:07 AM",
+  },
+  {
+    id: 2,
+    img: assets.News_2,
+    heading: "Quality Before Intensity",
+    description:
+      "Thanks to social media accounts, we live in a time where the fitness…",
+    time: "Tue 12 Jul 2016 6:03 AM",
+  },
+  {
+    id: 3,
+    img: assets.News_1,
+    heading: "Toes-to-Bar Mount",
+    description:
+      "At Kettlebell we have seen so many great athletes struggle on…",
+    time: "Sat 25 Jun 2016 5:59 AM",
+  },
+  {
+    id: 4,
+    img: assets.News_4,
+    heading: "Handstand Walk",
+    description:
+      "Handstand walking can be a fun and impressive skill to master…",
+    time: "Sun 12 Jun 2016 11:40 AM",
+  },
+];
