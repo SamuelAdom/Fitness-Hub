@@ -3,7 +3,7 @@ import SendButton from './SendButton'
 
 const ContactForm = () => {
   return (
-    <div className=" container px-4 mx-auto relative left-15 mt-10 ">
+    <div className=" container px-4 mx-auto relative lg:left-15 mt-10 ">
       <div className="mx-auto">
         <div className="max-w-md mx-auto px-8 py-6 bg-transparent space-y-3">
          <h1 className=" text-4xl md:w-full md:text-4xl font-bold text-white ">
