@@ -5,6 +5,7 @@ import Programs from '../Components/Programs'
 import Team from '../Components/Team'
 import News from '../Components/News'
 import Contact from '../Components/Contact'
+import Footer from '../Components/Footer'
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Team/>
       <News/>
       <Contact/>
+      <Footer/>
   
     </div>
   )
