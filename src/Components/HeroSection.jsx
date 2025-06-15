@@ -6,7 +6,7 @@ import HomeNav from './HomeNav'
 
 const HeroSection = () => {
   return (
-    <div className='relative h-screen  bg-cover sm:bg-center' style={{backgroundImage: `url(${assets.hero})`}}>
+    <div className='relative h-screen  bg-cover bg-fixed sm:bg-center' style={{backgroundImage: `url(${assets.hero})`}}>
      <HomeContact/>
      <HomeNav/>
     

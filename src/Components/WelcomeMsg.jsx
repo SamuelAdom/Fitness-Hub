@@ -1,4 +1,5 @@
 import React from "react";
+import{motion, scale} from 'framer-motion'
 import { assets } from "../assets/asset";
 
 const WelcomeMsg = () => {
@@ -17,13 +18,19 @@ const WelcomeMsg = () => {
     </button>
         </div>
       </div>
-      <div className="flex justify-center mt-7 md:mt-0 lg:p-30 lg:mt-0">
+      <motion.div
+      initial={{opacity:0, translateX:"-100%"}}
+      whileInView={{opacity:1, translateX:0}}
+      transition={{duration:2}}
+      
+      
+      className="flex justify-center mt-7 md:mt-0 lg:p-30 lg:mt-0">
   <img
     src={assets.team_4}
     alt="Instructor"
     className="w-full max-w-sm md:max-w-md lg:max-w-lg h-auto border-4 md:border-8 border-[#C6FF00] object-cover rounded-xl shadow-lg"
   />
-</div>
+</motion.div>
 
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { assets } from "../assets/asset";
 import { workingDay } from "../assets/asset";
 import MoreCard from "./MoreCard";
@@ -25,7 +26,13 @@ const Programs = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-white px-6 md:px-16 mt-10">
         {workingDay.map((item) => {
           return (
-            <div key={item.id} className="relative">
+            <motion.div
+              initial={{ opacity: 0, x: "-100%" }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 2 }}
+              key={item.id}
+              className="relative"
+            >
               <img
                 className="w-full h-64 object-cover rounded-lg"
                 src={item.img}
@@ -35,13 +42,17 @@ const Programs = () => {
                 <p className="text-sm">{item.day}</p>
                 <p className="text-lg font-bold">{item.title}</p>
               </div>
-            </div>
+            </motion.div>
           );
         })}
-        <div className="flex justify-center items-center">
-   <MoreCard/>
-        </div>
-  
+        <motion.div
+          initial={{ opacity: 0, x: "-100%" }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+          className="flex justify-center items-center"
+        >
+          <MoreCard />
+        </motion.div>
       </div>
     </div>
   );
