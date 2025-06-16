@@ -16,7 +16,7 @@ import News_1 from "./News_1.jpg";
 import News_2 from "./News_2.jpg";
 import News_3 from "./News_3.jpg";
 import News_4 from "./News_4.jpg";
-import About_img from "./About-img.jpg";
+import About_img from "./About_img.jpg";
 
 export const assets = {
   bg_programs,
