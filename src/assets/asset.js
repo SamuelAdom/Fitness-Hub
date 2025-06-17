@@ -46,6 +46,14 @@ export const workingDay = [
   { id: 4, img: assets.gym_4, day: "THURSDAY 10:00AM", title: "CARDIO" },
   { id: 5, img: assets.gym_5, day: "FRIDAY 11:00AM", title: "YOGA" },
 ];
+export const departments=[
+  {id:1, point:"Fitness"},
+  {id:2, point:"GYM"},
+  {id:3, point:"Powerlifting"},
+  {id:4, point:"Circuit"},
+  {id:5, point:"Boot Camp"},
+]
+
 export const teamMem = [
   {
     id: 1,

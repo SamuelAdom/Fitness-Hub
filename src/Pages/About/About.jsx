@@ -1,6 +1,10 @@
 import React from 'react';
 import { assets } from '../../assets/asset';
-import Dropdown from './Components/Dropdown';
+import Dropdown from './Components/Dropdown'
+import Accordion from './Components/Accordion.jsx'
+import Card from './Components/Card.jsx'
+import OpenTimes from './Components/OpenTimes.jsx'
+
 
 const About = () => {
   return (
@@ -16,14 +20,14 @@ const About = () => {
       </div>
 
       {/* Main Content Section */}
-      <section className="flex flex-col lg:flex-row md:items-start bg-[#393E41] min-h-screen py-10 px-6 gap-12">
+      <section className="flex flex-col md:flex-row md:items-start bg-[#393E41] min-h-screen py-10 px-6 gap-20">
         {/* Left Column */}
         <div className="flex-1 flex flex-col justify-start space-y-6 text-white lg:p-25">
           <h1 className="text-[25px] lg:text-4xl font-bold text-center lg:text-left">
             <span className="border-b-2 border-[#C6FF00] inline-block">Why</span> Choose FitnessHub
           </h1>
 
-          <p className="text-[#C6FF00] md:text-[20px] font-bold leading-7 lg:max-w-2xl">
+          <p className="text-[#C6FF00] md:text-[20px] md:w-100 lg:w-full font-bold leading-7 lg:max-w-2xl">
             All our programs are designed and led by certified professionals with years of hands-on experience in personal training, strength building, and wellness coaching.
           </p>
 
@@ -42,20 +46,23 @@ const About = () => {
           </p>
 
           <Dropdown />
-          <div className='space-y-3.5'>
+          <div className=' flex flex-col items-start space-y-3.5'>
              <h1 className="text-[25px] lg:text-4xl font-bold text-center lg:text-left">
             <span className="border-b-2 border-[#C6FF00] inline-block">Quality</span> and Safety
           </h1>
           <p className='font-light text-[17px] md:text-lg'>At FitnessHub, your health and well-being are our top priorities. We are committed to delivering the highest standards of quality across all our services — from expert-led training programs to the cleanliness and safety of our facilities.</p>
+          
+          <Accordion/>
           </div>
         </div>
 
         {/* Right Column */}
         <div className="flex-1 flex flex-col justify-center text-white space-y-4 text-lg font-medium">
-          <p>💪 Get stronger with every rep</p>
-          <p>🔥 Burn fat with intense cardio</p>
-          <p>🍽️ Eat clean, feel better</p>
-          <p>🧠 Build mental and physical discipline</p>
+         
+                <Card/>
+                <OpenTimes/>
+                
+           
         </div>
       </section>
     </>
