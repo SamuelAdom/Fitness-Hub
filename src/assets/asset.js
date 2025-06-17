@@ -17,6 +17,7 @@ import News_2 from "./News_2.jpg";
 import News_3 from "./News_3.jpg";
 import News_4 from "./News_4.jpg";
 import About_img from "./About_img.jpg";
+import Extra from './Extra.jpg'
 
 export const assets = {
   bg_programs,
@@ -38,6 +39,7 @@ export const assets = {
   News_4,
   More,
   About_img,
+  Extra,
 };
 export const workingDay = [
   { id: 1, img: assets.gym_1, day: "MONDAY 10:00AM", title: "OPEN TRAINING" },

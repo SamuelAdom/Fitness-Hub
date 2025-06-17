@@ -5,6 +5,7 @@ import Accordion from './Components/Accordion.jsx'
 import Card from './Components/Card.jsx'
 import OpenTimes from './Components/OpenTimes.jsx'
 import NewsLetter from './Components/NewsLetter.jsx'
+import EmergencyCard from './Components/EmergencyCard.jsx';
 
 
 const About = () => {
@@ -28,7 +29,7 @@ const About = () => {
             <span className="border-b-2 border-[#C6FF00] inline-block">Why</span> Choose FitnessHub
           </h1>
 
-          <p className="text-[#C6FF00] md:text-[20px] md:w-100 lg:w-full font-bold leading-7 lg:max-w-2xl">
+          <p className="text-[#C6FF00] md:text-[16px] md:w-100 lg:w-full leading-7 lg:max-w-2xl">
             All our programs are designed and led by certified professionals with years of hands-on experience in personal training, strength building, and wellness coaching.
           </p>
 
@@ -58,11 +59,13 @@ const About = () => {
         </div>
 
         {/* Right Column */}
-        <div className="flex-1 flex flex-col justify-center text-white space-y-4 text-lg font-medium items-start">
+        <div className="flex-1 flex flex-col justify-center text-white space-y-4 text-lg font-medium">
          
                 <Card/>
                 <OpenTimes/>
                 <NewsLetter/>
+                <EmergencyCard/>
+                <img className='w-full md:full lg:w-80 h-fit' src={assets.Extra} />
                 
            
         </div>
