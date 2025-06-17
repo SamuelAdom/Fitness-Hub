@@ -17,7 +17,7 @@ const About = () => {
         style={{ backgroundImage: `url(${assets.About_img})` }}
       >
         <h1 className="flex justify-center items-center h-full text-white text-5xl md:text-8xl font-extrabold">
-          ABOUT
+          About
         </h1>
       </div>
 
