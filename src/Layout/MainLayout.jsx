@@ -10,7 +10,7 @@ const MainLayout = () => {
         <ContactInfo/>
         <NavBar/>
         <Outlet/>
-        <Footer/>
+       {/*<Footer/>*/}
 
     </div>
   )
