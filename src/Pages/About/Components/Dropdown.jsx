@@ -47,7 +47,8 @@ const AnimatedTabs = () => {
   const [activeTab, setActiveTab] = useState(tabs[0].key);
 
   return (
-    <div className="md:mt-10 max-w-3xl mx-auto p-6 bg-[#2C2C2C] text-white rounded-md shadow-md">
+    <div className="relative bottom-7 md:mt-10 max-w-3xl mx-auto p-6 bg-[#2C2C2C] text-white rounded-md shadow-md">
+
       {/* Tab Header */}
       <div className="flex flex-wrap border-b border-gray-600">
         {tabs.map((tab) => (
