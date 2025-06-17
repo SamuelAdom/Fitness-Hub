@@ -4,6 +4,7 @@ import Dropdown from './Components/Dropdown'
 import Accordion from './Components/Accordion.jsx'
 import Card from './Components/Card.jsx'
 import OpenTimes from './Components/OpenTimes.jsx'
+import NewsLetter from './Components/NewsLetter.jsx'
 
 
 const About = () => {
@@ -20,7 +21,7 @@ const About = () => {
       </div>
 
       {/* Main Content Section */}
-      <section className="flex flex-col md:flex-row md:items-start bg-[#393E41] min-h-screen py-10 px-6 gap-20">
+      <section className="flex flex-col md:flex-row md:items-start bg-[#393E41] min-h-screen py-10 px-5 md:gap-5 lg:py-0 lg:gap-20">
         {/* Left Column */}
         <div className="flex-1 flex flex-col justify-start space-y-6 text-white lg:p-25">
           <h1 className="text-[25px] lg:text-4xl font-bold text-center lg:text-left">
@@ -57,10 +58,11 @@ const About = () => {
         </div>
 
         {/* Right Column */}
-        <div className="flex-1 flex flex-col justify-center text-white space-y-4 text-lg font-medium">
+        <div className="flex-1 flex flex-col justify-center text-white space-y-4 text-lg font-medium items-start">
          
                 <Card/>
                 <OpenTimes/>
+                <NewsLetter/>
                 
            
         </div>

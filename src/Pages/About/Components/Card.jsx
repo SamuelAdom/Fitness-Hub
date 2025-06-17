@@ -2,7 +2,7 @@ import React from 'react';
 import { departments } from '../../../assets/asset';
 const Card = () => {
   return (
-    <div className="relative drop-shadow-xl 2-full md:w-80 h-50 lg:mt-30 md:h-60 overflow-hidden bg-[#3d3c3d]">
+    <div className="relative drop-shadow-xl 2-full mt-10 md:w-80 h-50 lg:mt-30 md:h-60 overflow-hidden bg-[#3d3c3d]">
       <div className="absolute fle text-white z-[1] opacity-90  inset-0.5 bg-[#323132]">
         <div className='flex flex-col p-3 space-y-2.5'>
             <h1 className='text-lg md:text-2xl '>Departments</h1>
