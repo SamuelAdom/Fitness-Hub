@@ -20,7 +20,7 @@ const Team = () => {
         </p>
       </div>
         <div className="flex p-5 gap-10 justify-center items-center flex-col md:flex-row">
-        {teamMem.map((item)=>{
+        {teamMem.slice(0,3).map((item)=>{
           return(
             <TeamCard item={item} key={item.id}/>
           )

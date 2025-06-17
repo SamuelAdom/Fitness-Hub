@@ -11,6 +11,7 @@ import team_1 from "./team_1.jpg";
 import team_2 from "./team_2.jpg";
 import team_3 from "./team_3.jpg";
 import team_4 from "./team_4.jpg";
+import team_5 from "./team_5.jpg";
 import More from "./More.jpg";
 import News_1 from "./News_1.jpg";
 import News_2 from "./News_2.jpg";
@@ -34,6 +35,7 @@ export const assets = {
   team_2,
   team_3,
   team_4,
+  team_5,
   News_1,
   News_2,
   News_3,
@@ -80,6 +82,13 @@ export const teamMem = [
     img: assets.team_3,
     name: "Aliana Queen",
     role: "Kickboxing Trainer",
+    description: "	Combines martial arts with cardio workouts diet plans.",
+  },
+  {
+    id: 5,
+    img: assets.team_5,
+    name: "Jessica Hallow",
+    role: "Yoga Instructor",
     description: "	Combines martial arts with cardio workouts diet plans.",
   },
 ];
