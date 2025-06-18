@@ -6,6 +6,7 @@ import Card from './Components/Card.jsx'
 import OpenTimes from './Components/OpenTimes.jsx'
 import NewsLetter from './Components/NewsLetter.jsx'
 import EmergencyCard from './Components/EmergencyCard.jsx';
+import GetStarted from './Components/GetStarted.jsx'
 
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
     <>
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-80 lg:h-screen"
+        className="relative bg-cover bg-center h-80 lg:h-120"
         style={{ backgroundImage: `url(${assets.About_img})` }}
       >
         <h1 className="flex justify-center items-center h-full text-white text-5xl md:text-8xl font-extrabold">
@@ -70,6 +71,15 @@ const About = () => {
            
         </div>
       </section>
+      <div className='flex flex-col lg:flex-row items-start lg:items-stretch md:justify-around  relative bg-cover bg-center lg:h-40 h-80' style={{backgroundImage:`url(${assets.About_img})`}}>
+        <div className='flex gap-3 lg:gap-0 flex-col justify-center p-1.5 lg:p-20 space-y-2  text-white'>
+          <h1 className='text-3xl font-extrabold mt-7 lg:mt-0 md:text-4xl lg:text-4xl'>Encompassing All Accessible Exclusive Training</h1>
+          <p className='text-[22px] md:text-3xl lg:text-2xl'>We offer extensive training programs.</p>
+        </div>
+    <div className='flex p-2 md:mt-0 md:items-center'>
+      <GetStarted/>
+    </div>
+      </div>
     </>
   );
 };
