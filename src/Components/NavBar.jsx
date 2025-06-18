@@ -65,12 +65,12 @@ export default function Navbar() {
             </button>
           </div>
           {/* Mobile Menu List */}
-          <ul className="flex flex-col font-light text-[20px]  ">
+          <ul className="flex flex-col font-light text-[20px] space-y-4 p-2   ">
             <li>
               <NavLink
                 to="/"
                 onClick={() => setIsOpen(false)}
-                className="block text-gray-900 hover:text-[#C6FF00]"
+                className="block text-gray-900 font-extrabold hover:text-[#C6FF00]"
               >
                 HOME
               </NavLink>
@@ -79,7 +79,7 @@ export default function Navbar() {
               <NavLink
                 to="/about"
                 onClick={() => setIsOpen(false)}
-                className="block text-gray-900 hover:text-[#C6FF00]"
+                className="block text-gray-900 font-extrabold hover:text-[#C6FF00]"
               >
                 ABOUT
               </NavLink>
@@ -88,7 +88,7 @@ export default function Navbar() {
               <NavLink
                 to="/team"
                 onClick={() => setIsOpen(false)}
-                className="block text-gray-900 hover:text-[#C6FF00]"
+                className="block text-gray-900 font-extrabold hover:text-[#C6FF00]"
               >
                 TEAM
               </NavLink>
@@ -97,7 +97,7 @@ export default function Navbar() {
               <NavLink
                 to="/contact"
                 onClick={() => setIsOpen(false)}
-                className="block text-gray-900 hover:text-[#C6FF00]"
+                className="block text-gray-900 font-extrabold hover:text-[#C6FF00]"
               >
                 CONTACT
               </NavLink>
