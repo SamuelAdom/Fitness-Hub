@@ -1,8 +1,11 @@
 import React from "react";
 import { assets } from "../../assets/asset";
+import Card from './Components/Card'
+import { HelpingHand, DollarSign, CalendarCheck } from 'lucide-react';
 
 const Contact = () => {
   return (
+    <>
     <div className="grid grid-cols-1 md:grid-cols-2 bg-[#393E41] text-white">
       <div className="flex flex-col p-3 md:pb-4 space-y-3.5">
         <h1 className=" text-4xl w-70 md:w-full md:text-4xl font-bold text-white ">
@@ -28,6 +31,25 @@ const Contact = () => {
         <img className="h-full md:h-full md:w-full" src={assets.contact_image} />
       </div>
     </div>
+   <div className="flex flex-col items-center md:gap-4 bg-gray-800 sm:flex-row sm:justify-center">
+        <Card
+          icon={<HelpingHand />}
+          title="Personal Guidance"
+          description="Get expert advice tailored to your fitness level and goals—no more guessing your way around the gym."
+        />
+        <Card
+          icon={<DollarSign />}
+          title="Membership Info"
+          description="Understand pricing options, discounts, and what plan best fits your lifestyle and training goals."
+        />
+        <Card
+          icon={<CalendarCheck />}
+          title="Book a Tour"
+          description="Schedule a tour of our facility to see our modern equipment and welcoming environment before signing up."
+        />
+      </div>
+    </>
+
   );
 };
 
