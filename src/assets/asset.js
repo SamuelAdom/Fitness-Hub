@@ -1,6 +1,6 @@
 import bg_programs from "./bg_programs.jpg";
 import features_background from "./features_background.jpg";
-import footer_image from "./footer_image.jpg";
+import contact_image from "./contact_image.jpg";
 import gym_1 from "./gym_1.jpg";
 import gym_2 from "./gym_2.jpg";
 import gym_3 from "./gym_3.jpg";
@@ -24,7 +24,7 @@ import Team_hero from './Team_hero.jpg'
 export const assets = {
   bg_programs,
   features_background,
-  footer_image,
+  contact_image,
   gym_1,
   gym_2,
   gym_3,

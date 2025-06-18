@@ -2,7 +2,7 @@ import React from 'react'
 import HomePage from './Pages/HomePage'
 import About from './Pages/About/About'
 import TeamPage from './Pages/TeamPage/TeamPage'
-import Contact from './Pages/Contact'
+import Contact from './Pages/ContactPage/Contact'
 import MainLayout from './Layout/MainLayout'
 import { Routes,Route } from 'react-router-dom'
 
