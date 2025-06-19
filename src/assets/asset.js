@@ -86,9 +86,9 @@ export const teamMem = [
   },
   {
     id: 4,
-    img: assets.team_5,
-    name: "Jessica Hallow",
-    role: "Yoga Instructor",
+    img: assets.team_4,
+    name: "Jack Hallow",
+    role: "Bodybuilding Instructor",
     description: "	Combines martial arts with cardio workouts diet plans.",
   },
 ];
