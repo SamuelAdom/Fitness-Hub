@@ -4,6 +4,7 @@ import About from './Pages/About/About'
 import TeamPage from './Pages/TeamPage/TeamPage'
 import Contact from './Pages/ContactPage/Contact'
 import MainLayout from './Layout/MainLayout'
+import ErrorPage from './Pages/ErrorPage'
 import { Routes,Route } from 'react-router-dom'
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
       <Route path='/about' element={< About/>}></Route>
       <Route path='/team' element={<TeamPage/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
+      <Route path='*' element={<ErrorPage/>}></Route>
+
       </Route>
 
 
