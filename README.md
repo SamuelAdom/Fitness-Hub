@@ -1,12 +1,31 @@
-# React + Vite
+# 🏋️‍♂️ FitnessHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**FitnessHub** is a modern front-end web application for a gym website designed to provide an engaging and responsive user experience for fitness enthusiasts. This project is built with **React** and **Tailwind CSS ** and showcases a sleek UI, mobile responsiveness, and smooth animations.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Features
 
-## Expanding the ESLint configuration
+- Responsive and mobile-first layout
+- Modern and clean UI design
+- Navigation menu with active link highlighting
+- Interactive sections for:
+  - Home
+  - About Us
+  - Team
+  - Contact
+- Hero section with call-to-action
+- Smooth animations and transitions
+- Footer with contact details and social links
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🛠️ Tech Stack
+
+- **React** – JavaScript library for building user interfaces
+- **Tailwind CSS** – Utility-first CSS framework for styling
+
+- 📦 Installation
+- Clone the repository
+
+git clone https://github.com/SamuelAdom/Fitness-Hub
+cd Fitness-Hub
+Install dependancies npm install
