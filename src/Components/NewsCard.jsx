@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const NewsCard = ({ items }) => {
   return (
     <motion.a
-      initial={{ opacity: 0, y: "-100%" }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{
-        duration: 1,
-        ease: "easeOut",
+     initial={{ opacity: 0, y: -20 }}
+whileInView={{ opacity: 1, y: 0 }}
+transition={{
+  duration: 0.6,
+  ease: "easeInOut",
       }}
       href="#"
       className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row w-full  hover:bg-gray-100 dark:border-gray-700 dark:bg-[#393E41] dark:hover:bg-gray-700"
