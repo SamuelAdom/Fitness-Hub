@@ -29,12 +29,14 @@ const Contact = () => {
           <p className="text-[#C6FF00] text-2xl">Address</p>
           <p className="text-lg">Weija, Accra Road Ghana</p>
         </div>
-        <div>
-          <img
-            className="h-full md:h-full md:w-full"
-            src={assets.contact_image}
-          />
-        </div>
+      <div className="w-full max-w-4xl mx-auto overflow-hidden rounded-lg">
+  <img
+    src={assets.contact_image}
+    alt="Contact"
+    className="w-full h-auto object-cover md:h-full"
+  />
+</div>
+
       </div>
       <div className="flex flex-col items-center md:gap-4 bg-gray-800 sm:flex-row sm:justify-center">
         <Card
