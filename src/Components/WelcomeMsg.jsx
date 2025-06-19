@@ -1,6 +1,7 @@
 import React from "react";
-import{motion, scale} from 'framer-motion'
+import{motion} from 'framer-motion'
 import { assets } from "../assets/asset";
+import { Link } from "react-router-dom";
 
 const WelcomeMsg = () => {
   return (
@@ -11,11 +12,12 @@ const WelcomeMsg = () => {
         <p className="text-md md:text-lg font-light text-white w-150">We make every attendee feel like part of one big, passionate community! And our fitness instructors are always here to support you whenever you need a hand.</p>
         <p className="text-md md:text-lg font-light text-white w-150">Their mission? To help you become as fit and strong as possible. Just show up at FitnessHub—your transformation starts the moment you walk in!</p>
         <div>
-        <button className="cursor-pointer font-semibold overflow-hidden relative z-10 border border-[#C6FF00] group px-8 py-2 mt-8">
+       <Link to={'/about'}> <button className="cursor-pointer font-semibold overflow-hidden relative z-10 border border-[#C6FF00] group px-8 py-2 mt-8">
       <span className="relative z-10 text-[#C6FF00] group-hover:text-white text-xl duration-500">READ MORE</span>
       <span className="absolute w-full h-full bg-[#C6FF00] -left-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:left-0 duration-500" />
       <span className="absolute w-full h-full bg-[#C6FF00] -right-32 top-0 -rotate-45 group-hover:rotate-0 group-hover:right-0 duration-500" />
     </button>
+    </Link>
         </div>
       </div>
       <motion.div

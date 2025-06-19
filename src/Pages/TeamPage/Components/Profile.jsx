@@ -3,11 +3,11 @@ import React from 'react';
 const Card = ({ item }) => {
   return (
     <div className="relative group cursor-pointer overflow-hidden duration-500 w-full lg:w-64 h-full bg-transparent text-gray-50 p-5 md:bottom-20">
-      <div className="w-full max-w-md mx-auto overflow-hidden rounded-lg ">
+      <div className="w-full max-w-md mx-auto overflow-hidden rounded-lg  ">
   <img
     src={item.img}
     alt={item.name}
-    className="w-full h-100 group-hover:scale-110 duration-500 object-cover"
+    className="w-full h-100 group-hover:scale-110 duration-500 object-cover lg:h-full"
   />
 </div>
 
